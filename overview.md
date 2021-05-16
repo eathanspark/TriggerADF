@@ -1,6 +1,6 @@
 # Triggering Azure Data factory Pipeline from Console/Windows Application (#)
 
-Azure Data Factory mostaly use for ETL activity with has proper schedule to run on the stipulated time in batch mode, but in some of scenario it is required on call adf pipeline on demand. Trigger point could anything like Console Application, windows Services or even web apis. So In this repo I have created a console application that call already create 
+Azure Data Factory mostaly use for ETL activity which has proper schedule to run on the stipulated time in batch mode, but in some of scenario it is required on call adf pipeline on demand. Trigger point could anything like Console Application, windows Services or even web apis. In this article I have created a console application that call already create 
 ADF pipeline.
 
 # Prerequisite
@@ -21,3 +21,4 @@ ADF pipeline.
 - Microsoft.Rest;
 - Microsoft.IdentityModel.Clients.ActiveDirectory;
 - System.Threading.Tasks;
+
